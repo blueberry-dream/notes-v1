@@ -1,0 +1,16 @@
+# .gitignore
+
+# node dependencies
+node_modules
+
+# build artifacts
+_site
+
+# personal notes
+notes/**/_*
+
+# exclude searchIndex page and home page
+!notes/.base
+
+# personal notes
+notes/personal/**/*

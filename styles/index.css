@@ -1,0 +1,48 @@
+/* All page styles */
+body {
+    all: unset;
+    font-family: sans-serif;
+    display: flex;
+    min-height: 100vh;
+    background-color: beige;
+}
+
+.content {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    margin: 0px auto;
+    width: 85%;
+    max-width: 900px;
+    min-width: 600px;
+}
+
+/* Note page styles */
+.note-header {
+    display: flex;
+    padding: 0px 20px;
+    width: auto;
+    margin: 0px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Search page styles */
+
+.search-header {
+    display: flex;
+    padding: 0px 20px;
+    width: auto;
+    margin: 0px auto;
+    align-items: center;
+    padding: 20px 100px;
+    font-size: 1.5rem;
+}
+
+.search-box {
+    padding: 0px 20px;
+    margin: 0px 100px;
+    width: 60%;
+    font-size: 1.5rem;
+
+}

@@ -1,0 +1,18 @@
+{% include "_header.liquid" %}
+
+<body>
+    <div class="content" id="note">
+        <div class="note-header">
+            <h1>{{ page.fileSlug }}</h1>
+            <div>
+                <a href="/index.html">goto search</a>
+            </div>
+        </div>
+        <div class="note">
+            {{ content }}
+        </div>
+    </div>
+
+</body>
+
+{% include "_footer.liquid" %}

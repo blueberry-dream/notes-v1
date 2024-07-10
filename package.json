@@ -1,0 +1,20 @@
+{
+  "name": "cs-miss-10-notes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx eleventy",
+    "dev": "set NODE_ENV=dev && npx eleventy --serve",
+    "debug": "set DEBUG=\"Eleventy*\" && npx eleventy --serve",
+    "clean": "echo clean func not implemented \t delete _site folder and run build again",
+    "new:note": "echo new:note not implemented \t use notes/.new-note.md as the template"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "2.0.1",
+    "elasticlunr": "0.9.5"
+  }
+}

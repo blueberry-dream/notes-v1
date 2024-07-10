@@ -1,0 +1,22 @@
+---
+permalink: "index.html"
+---
+{% include "_header.liquid" %}
+
+<body>
+    <div id="content" class="content">
+
+        <div class="field search-header">
+            <label for="searchField">Search</label>
+            <input class="search-box" type="search" placeholder="search ..." id="searchField" />
+        </div>
+
+        <ol id="searchResults"></ol>
+        <div id="noResultsFound" style="display: none">
+            <h6>No Results Found.</h6>
+        </div>
+    </div>
+
+    <script src="/scripts/elasticlunr.min.js"></script>
+    <script src="/scripts/search.js"></script>
+</body>
